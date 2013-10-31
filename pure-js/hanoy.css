@@ -1,0 +1,69 @@
+body {
+    padding-top: 70px;
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Arial";
+}
+
+body > h3 {
+    text-align: center;
+}
+
+.board {
+    margin: 3em;
+    position: relative;
+    width: 640px;
+    height: 250px;
+    border: 2px solid #ccc;
+}
+
+.board .column-wrapper {
+    position: absolute;
+    width: 200px;
+    height: 230px;
+    top: 10px;
+    bottom: 10px;
+    background-color: #eee;
+}
+
+.column1 { left: 10px; }
+.column2 { left: 220px; }
+.column3 { left: 430px; }
+
+.column {
+    position: relative !important;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.column.selected {
+    background-color: #ccc;
+}
+
+.core {
+    position: absolute;
+    width: 10px;
+    bottom: 0;
+    background-color: #777;
+    content: ' ';
+    left: 95px;
+    top: 10px;
+}
+
+.disk {
+    position: absolute;
+    height: 20px;
+    left: 50%;
+    content: ' ';
+    /*margin: auto;*/
+}
+
+.disk1 { background-color: #08C; width: 180px; left: 10px; }
+.disk2 { background-color: #393; width: 160px; left: 20px; }
+.disk3 { background-color: #444; width: 140px; left: 30px; }
+.disk4 { background-color: #f55; width: 120px; left: 40px; }
+.disk5 { background-color: #ff5; width: 100px; left: 50px; }
+.disk6 { background-color: #5ff; width: 80px; left: 60px; }
+.disk7 { background-color: #93f; width: 60px; left: 70px; }

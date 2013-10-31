@@ -1,0 +1,16 @@
+{
+	"name": "hanoi-tower-demo",
+	"version": "0.0.1",
+	"dependencies": {
+		"jquery": "latest",
+		"requirejs": "latest",
+		"backbone": "latest",
+		"underscore": "latest",
+		"modernizr": "~2.6.2",
+		"bootstrap": "latest",
+		"normalize-css": "latest"
+
+	},
+	"devDependencies": {},
+	"directory": "bower"
+}
